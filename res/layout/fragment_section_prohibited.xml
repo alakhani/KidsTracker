@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="154dp"
+	    android:orientation="vertical"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="30dp" >
+	    
+	    <TextView
+	        android:id="@+id/probib"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:text="@string/prohib" 
+	        android:textSize="20sp"/>
+	    
+	    <EditText
+	        android:id="@+id/prohib_et"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="0.04"
+	        android:hint="@string/prohib_hint" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="69dp"
+	    android:layout_marginTop="180dp"
+	    android:orientation="horizontal"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="30dp" >
+
+	    <Button
+	        android:id="@+id/submitAreaBtn"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="10dp"
+	        android:layout_weight="0.01"
+	        android:text="@string/submitAreaBtn"
+	        android:textSize="20sp" />
+
+	</LinearLayout>
+	
+</FrameLayout>

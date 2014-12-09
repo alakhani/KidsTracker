@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KidsTrackerAlpha</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="date">Enter Date</string>
+    <string name="date_hint"><i>Select Date</i></string>
+    <string name="startTime">Start Time</string>
+    <string name="endTime">End Time</string>
+    <string name="location">Enter Location</string>
+    <string name="time_hint"><i>Time</i></string>
+    <string name="loc_hint"><i>Location</i></string>
+    <string name="prohib_hint"><i>Enter Area</i></string>
+    <string name="submit">Submit</string>
+    <string name="submitAreaBtn">Submit Area</string>
+    <string name="trk_loc">Track Location</string>
+    <string name="prohib">Enter Prohibited Location</string>
+    <string name="child_at">Child is currently at</string>
+    <string name="demo_external_activity">Demo</string>
+    <string name="demo_collection">Demo</string>
+    
+    <string name="action_settings">Action Settings</string>
+</resources>
